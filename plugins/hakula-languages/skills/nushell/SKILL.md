@@ -119,7 +119,7 @@ Test a script with `std/assert` when its output is easy to get subtly wrong. Dri
 
 ### Test runners
 
-Use the repository's declared test runner and read its maintained guide for test discovery, process isolation, stubs and shared helpers, scratch space, and failure reporting. Repositories using devkit's `nu-test` follow its [runner guide](https://github.com/hakula139/devkit/blob/v3/docs/nu-test.md).
+Use the repository's declared test runner and read its maintained guide for test discovery, process isolation, stubs and shared helpers, scratch space, and failure reporting. Repositories using devkit's `nu-test` follow its [runner guide](https://github.com/hakulab/devkit/blob/v3/docs/nu-test.md).
 
 ## Linting
 
