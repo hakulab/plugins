@@ -25,6 +25,7 @@ glanceable
 gnubin
 gridlines
 hakula
+hakulab
 indoc
 libexec
 lifecycles
