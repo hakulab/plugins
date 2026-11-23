@@ -1,6 +1,6 @@
 # plugins
 
-[![CI](https://github.com/hakula139/plugins/actions/workflows/ci.yml/badge.svg)](https://github.com/hakula139/plugins/actions/workflows/ci.yml)
+[![CI](https://github.com/hakulab/plugins/actions/workflows/ci.yml/badge.svg)](https://github.com/hakulab/plugins/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![WakaTime coding time for plugins](https://wakatime.com/badge/user/f4a35a1f-0e29-4093-a647-e66aad164737/project/aea7f1e0-c17c-4924-836b-3756b8988845.svg)
 
@@ -26,7 +26,7 @@ Several skills refer to each other by name, so install `hakula-workflow` beside 
 Add the marketplace and install the workflow plugin:
 
 ```bash
-claude plugin marketplace add hakula139/plugins
+claude plugin marketplace add hakulab/plugins
 claude plugin install hakula-workflow@hakula-plugins
 ```
 
@@ -42,7 +42,7 @@ claude plugin update hakula-workflow@hakula-plugins
 Add the marketplace and install the workflow plugin:
 
 ```bash
-codex plugin marketplace add hakula139/plugins
+codex plugin marketplace add hakulab/plugins
 codex plugin add hakula-workflow@hakula-plugins
 ```
 
@@ -57,7 +57,7 @@ codex plugin marketplace upgrade hakula-plugins
 Add the marketplace and install the workflow plugin:
 
 ```bash
-omp plugin marketplace add hakula139/plugins
+omp plugin marketplace add hakulab/plugins
 omp plugin install hakula-workflow@hakula-plugins
 ```
 
@@ -74,7 +74,7 @@ The flake exports `lib.skills`, which maps each skill name to its directory with
 
 ```nix
 plugins = {
-  url = "github:hakula139/plugins";
+  url = "github:hakulab/plugins";
   inputs.nixpkgs.follows = "nixpkgs";
 };
 ```
