@@ -16,6 +16,8 @@ concurrency:
 jobs:
   nix:
     uses: hakulab/devkit/.github/workflows/nix.yml@v3
+    secrets:
+      CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
   result:
     name: CI Result
