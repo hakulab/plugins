@@ -16,10 +16,11 @@ concurrency:
 jobs:
   nix:
     uses: hakulab/devkit/.github/workflows/nix.yml@v3
+    secrets:
+      CACHIX_AUTH_TOKEN: ${{ secrets.CACHIX_AUTH_TOKEN }}
 
   result:
     name: CI Result
-    # A skipped required check passes, so the gate must run after failures too.
     if: ${{ !cancelled() }}
     needs: [nix]
     runs-on: ubuntu-latest
