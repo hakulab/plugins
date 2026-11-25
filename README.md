@@ -15,7 +15,7 @@ The `hakula-plugins` marketplace holds four plugins. Each skill is a self-contai
 | `hakula-workflow`  | `clean-gone`, `code-layout`, `git-workflow`, `release`, `review`                                       |
 | `hakula-languages` | `nix`, `nushell`, `rust`                                                                               |
 | `hakula-tools`     | `ast-grep`, `browser-debugging`, `cspell`, `disk-cleanup`, `find-docs`, `frontend-design`, `read-pdfs` |
-| `hakula-agents`    | `acp-delegate`, `dream`, `harness-repair`, `model-delegation`                                          |
+| `hakula-agents`    | `acp-delegate`, `archive`, `dream`, `harness-repair`, `model-delegation`                               |
 
 Several skills refer to each other by name, so install `hakula-workflow` beside any other plugin.
 

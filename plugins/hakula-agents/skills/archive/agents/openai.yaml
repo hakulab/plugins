@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Archive Sessions'
+  short_description: 'Archive and restore inactive Claude Code sessions'
+  default_prompt: 'Use $archive to archive inactive Claude Code sessions or restore archived ones.'
